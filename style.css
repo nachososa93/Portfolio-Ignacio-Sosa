@@ -1,0 +1,212 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}  
+:root{
+    --yellow: #FDC921;
+    --ligthyellow : #FDD85D;
+    --white:#FFFDF7;
+    --ligthblue:#99D6EA;
+    --blue : #6798C0;
+    --grey: #333533;
+    --black: #000814
+
+
+}
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #333533;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.background span {
+    width: 38vmin;
+    height: 38vmin;
+    border-radius: 38vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 25;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.background span:nth-child(0) {
+    color: #fdd85d;
+    top: 54%;
+    left: 16%;
+    animation-duration: 116s;
+    animation-delay: -90s;
+    transform-origin: -8vw 15vh;
+    box-shadow: -76vmin 0 9.51272125428229vmin currentColor;
+}
+.background span:nth-child(1) {
+    color: #fdd85d;
+    top: 55%;
+    left: 43%;
+    animation-duration: 204s;
+    animation-delay: -242s;
+    transform-origin: -22vw -16vh;
+    box-shadow: -76vmin 0 10.330442066301377vmin currentColor;
+}
+.background span:nth-child(2) {
+    color: #fdd85d;
+    top: 84%;
+    left: 34%;
+    animation-duration: 181s;
+    animation-delay: -72s;
+    transform-origin: -1vw -22vh;
+    box-shadow: -76vmin 0 10.249303672012577vmin currentColor;
+}
+.background span:nth-child(3) {
+    color: #fdd85d;
+    top: 80%;
+    left: 37%;
+    animation-duration: 23s;
+    animation-delay: -201s;
+    transform-origin: 19vw -1vh;
+    box-shadow: -76vmin 0 9.51811190118417vmin currentColor;
+}
+.background span:nth-child(4) {
+    color: #fdd85d;
+    top: 91%;
+    left: 50%;
+    animation-duration: 63s;
+    animation-delay: -121s;
+    transform-origin: -3vw -11vh;
+    box-shadow: -76vmin 0 10.237006017037775vmin currentColor;
+}
+
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: var(--grey   );
+color: var(--white);
+font-family: 'Bebas Neue';
+}
+
+.header{
+flex-direction: row;
+width: 100%;
+justify-content: space-between;
+}
+
+.conteiner-nav{
+flex-direction: row;
+width: 100%;
+justify-content: space-between;
+}
+.logo-dev{
+width: 100px;
+
+}
+.list-nav{
+flex-direction: row;
+position:absolute;
+left: 0px;
+top: 300px;
+gap: 100px;
+display: flex;
+flex-direction: column;
+}
+.element-li{
+
+}
+.menu-toggle-responsive{
+width: 60px;
+display: none;
+}
+.hero{
+
+}
+.conteiner-hero{
+
+}
+.conteiner-hero-tittle{
+
+}
+.conteiner-hero-h2{
+
+}
+.little-info{
+
+}
+.button-next-hero-conteiner{
+
+}
+.conteiner-button{
+
+}
+.button-next-hero{
+
+}
+.About-me{
+
+}
+.about-me-conteiner{
+
+}
+.image-perfil-conteneiner{
+
+}
+.img-perfil{
+
+}
+.information-conteiner{
+
+}
+.tittle-information{
+
+}
+.information{
+
+}
+.cards-conteiner{
+
+}
+.cards-group{
+
+}
+.card{
+
+}
+.proyects-conteiner{
+
+}
+.proyect{
+
+}
+.link-proyect{
+
+}
+.img-proyect{
+
+}
+.contact-conteiner{
+
+}
+.text-contact-conteiner{
+
+}
+.tittle-contact{
+
+}
+.text-contact{
+
+}
